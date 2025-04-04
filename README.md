@@ -12,16 +12,16 @@ Recursively filters objects by TypeScript interfaces at runtime — removes extr
 
 🚀 Installation
 
-`npm install pickle`
+`npm intall @gulzer/pickle`
 
 # or
 
-`yarn add pickle`
+`yarn add @gulzer/pickle`
 
 🔧 Usage
 
 ```
-import { pickle } from "pickle";
+import { pickle } from "@gulzer/pickle";
 
 interface Address {
   city: string;

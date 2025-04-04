@@ -1,5 +1,5 @@
 {
-  "name": "pickle",
+  "name": "@gulzer/pickle",
   "version": "1.0.0",
   "description": "A very lightweight run-time type safe package for recursively filtering and validating objects based on TypeScript interfaces without extra keys.",
   "main": "./dist/index.js",
@@ -12,8 +12,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.8.2",
-    "tsup": "8.4.0"
+    "tsup": "8.4.0",
+    "typescript": "^5.8.2"
   },
   "keywords": [
     "typescript",
@@ -21,5 +21,8 @@
     "validation",
     "filtering",
     "objects"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
