@@ -1,0 +1,25 @@
+{
+  "name": "pickle",
+  "version": "1.0.0",
+  "description": "A very lightweight run-time type safe package for recursively filtering and validating objects based on TypeScript interfaces without extra keys.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": "git@github.com:gulzerr/pickle.git",
+  "author": "gulzerr <gulzer.deb@gmail.com>",
+  "scripts": {
+    "build": "tsup"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "tsup": "8.4.0"
+  },
+  "keywords": [
+    "typescript",
+    "type-safe",
+    "validation",
+    "filtering",
+    "objects"
+  ]
+}
