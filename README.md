@@ -14,7 +14,7 @@ Recursively filters objects by TypeScript interfaces at runtime — removes extr
 
 `npm intall @gulzer/pickle`
 
-# or
+or
 
 `yarn add @gulzer/pickle`
 
